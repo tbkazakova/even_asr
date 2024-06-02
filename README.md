@@ -4,7 +4,7 @@ Here are files for creating ASR (automatic speech recognition) Even models.
 
 It is my thesis and project of our expedition team from HSE University.
 
-Main results:
+# Main results:
 
 Models:
 - https://huggingface.co/tbkazakova/wav2vec-bert-2.0-even-biblical
@@ -20,6 +20,6 @@ Datasets:
 [1]: Natalia Aralova, Brigitte Pakendorf, Alexandra Lavrillier, Dejan Matić, Katharina Gernet, Tat'jana Vasil'evna Zakharova, Raisa Petrovna Kuzmina, and Luise Zippel (2007 - 2023). Collection "Even". The Language Archive. https://hdl.handle.net/1839/07210104-91d6-4133-b067-b21eadc35f9a
 
 
-Programms for data preprocessing:
+# Programms for data preprocessing:
 - voice_activity.ipynb
 
