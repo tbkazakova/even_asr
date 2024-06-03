@@ -20,9 +20,14 @@ Datasets:
 [1]: Natalia Aralova, Brigitte Pakendorf, Alexandra Lavrillier, Dejan Matić, Katharina Gernet, Tat'jana Vasil'evna Zakharova, Raisa Petrovna Kuzmina, and Luise Zippel (2007 - 2023). Collection "Even". The Language Archive. https://hdl.handle.net/1839/07210104-91d6-4133-b067-b21eadc35f9a
 
 
-# Files for data preprocessing:
+## Files for data preprocessing:
 - [eaf_formats.csv](https://github.com/tbkazakova/even_asr/blob/main/eaf_formats.csv) - types of eaf files from project (Aralova et al. 2007-2023)
 - [voice_activity.ipynb](https://github.com/tbkazakova/even_asr/blob/main/voice_activity.ipynb) - creating eaf files with voice activity markup
 - 
+## Simple useful functions
+- [audio_length.ipynb](https://github.com/tbkazakova/even_asr/blob/main/audio_length.ipynb) - to count audio length
+- [change_tempo.ipynb](https://github.com/tbkazakova/even_asr/blob/main/change_tempo.ipynb) - to change audio tempo
+- [mp32wav.ipynb](https://github.com/tbkazakova/even_asr/blob/main/mp32wav.ipynb) - to convert mp3 to wav
+- [cut_audio.ipynb](https://github.com/tbkazakova/even_asr/blob/main/cut_audio.ipynb) - to cut audio
 -  
 
