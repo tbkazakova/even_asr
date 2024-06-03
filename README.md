@@ -24,7 +24,7 @@ Datasets:
 - [eaf_formats.csv](https://github.com/tbkazakova/even_asr/blob/main/eaf_formats.csv) - types of eaf files from project (Aralova et al. 2007-2023)
 - [voice_activity.ipynb](https://github.com/tbkazakova/even_asr/blob/main/voice_activity.ipynb) - creating eaf files with voice activity markup
 - 
-## Simple useful functions
+## Simple useful functions (dir: simple_func)
 - [audio_length.ipynb](https://github.com/tbkazakova/even_asr/blob/main/audio_length.ipynb) - to count audio length
 - [change_tempo.ipynb](https://github.com/tbkazakova/even_asr/blob/main/change_tempo.ipynb) - to change audio tempo
 - [mp32wav.ipynb](https://github.com/tbkazakova/even_asr/blob/main/mp32wav.ipynb) - to convert mp3 to wav
