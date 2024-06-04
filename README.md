@@ -24,9 +24,12 @@ Datasets:
 
 ## Files for data preprocessing:
 **Pakendorf dataset (dir: pakendorf)**
-- [get_pakendorf.ipynb](https://github.com/tbkazakova/even_asr/blob/main/preproc/pakendorf/get_pakendorf.ipynb) - to crawl data from DOBES project, get links for downloading audio files
-- [audio&video_downloading.ipynb](https://github.com/tbkazakova/even_asr/blob/main/preproc/pakendorf/audio&video_downloading.ipynb) - to check what files are downloaded from DOBES
+- [get_pakendorf.ipynb](https://github.com/tbkazakova/even_asr/blob/main/preproc/pakendorf/get_pakendorf.ipynb) - to crawl data from The Language Archive project, get links for downloading audio files
+- [audio&video_downloading.ipynb](https://github.com/tbkazakova/even_asr/blob/main/preproc/pakendorf/audio&video_downloading.ipynb) - to check what files are downloaded from The Language Archive
 - [eaf_formats.csv](https://github.com/tbkazakova/even_asr/blob/main/preproc/pakendorf/eaf_formats.csv) - types of eaf files from project (Aralova et al. 2007-2023)
+- [change_wavlinks.ipynb](https://github.com/tbkazakova/even_asr/blob/main/preproc/pakendorf/change_wavlinks.ipynb) - to change links to wav files in eaf files
+- [get_spans.ipynb](https://github.com/tbkazakova/even_asr/blob/main/preproc/pakendorf/eaf_formats.csv) - main file of preprocessing - to parse eaf files with different formats, transliterate different latin and cyrillic project variants of orthography into unified cyrillic version, spellcheck, clean data from notes, comments, to save information about timecodes of beginning and ending of the phrases into table of spans
+- to delete the longest audio files and files shorter than 1 millisecond
 - [get_pakendorf_dataset.ipynb](https://github.com/tbkazakova/even_asr/blob/main/preproc/pakendorf/get_pakendorf_dataset.ipynb) - to cut files and prepare metadata table from table of spans
 - 
 **Biblical dataset (dir: biblical)**
