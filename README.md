@@ -19,6 +19,8 @@ Datasets:
 
 [1]: Natalia Aralova, Brigitte Pakendorf, Alexandra Lavrillier, Dejan Matić, Katharina Gernet, Tat'jana Vasil'evna Zakharova, Raisa Petrovna Kuzmina, and Luise Zippel (2007 - 2023). Collection "Even". The Language Archive. https://hdl.handle.net/1839/07210104-91d6-4133-b067-b21eadc35f9a
 
+## Training notebooks
+- [W2V2_BERT_Even_biblical.csv](https://github.com/tbkazakova/even_asr/blob/main/Fine_Tune_W2V2_BERT_Even_biblical.ipynb)
 
 ## Files for data preprocessing:
 - [eaf_formats.csv](https://github.com/tbkazakova/even_asr/blob/main/eaf_formats.csv) - types of eaf files from project (Aralova et al. 2007-2023)
