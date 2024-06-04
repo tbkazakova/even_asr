@@ -23,9 +23,17 @@ Datasets:
 - [W2V2_BERT_Even_biblical](https://github.com/tbkazakova/even_asr/blob/main/Fine_Tune_W2V2_BERT_Even_biblical.ipynb)
 
 ## Files for data preprocessing:
-- [eaf_formats.csv](https://github.com/tbkazakova/even_asr/blob/main/eaf_formats.csv) - types of eaf files from project (Aralova et al. 2007-2023)
-- [voice_activity.ipynb](https://github.com/tbkazakova/even_asr/blob/main/voice_activity.ipynb) - creating eaf files with voice activity markup
+**Pakendorf dataset (dir: pakendorf)**
+- [get_pakendorf.ipynb](https://github.com/tbkazakova/even_asr/blob/main/preproc/pakendorf/get_pakendorf.ipynb) - to crawl data from DOBES project, get links for downloading audio files
+- [audio&video_downloading.ipynb](https://github.com/tbkazakova/even_asr/blob/main/preproc/pakendorf/audio&video_downloading.ipynb) - to check what files are downloaded from DOBES
+- [eaf_formats.csv](https://github.com/tbkazakova/even_asr/blob/main/preproc/pakendorf/eaf_formats.csv) - types of eaf files from project (Aralova et al. 2007-2023)
+- [get_pakendorf_dataset.ipynb](https://github.com/tbkazakova/even_asr/blob/main/preproc/pakendorf/get_pakendorf_dataset.ipynb) - to cut files and prepare metadata table from table of spans
 - 
+**Biblical dataset (dir: biblical)**
+- [voice_activity.ipynb](https://github.com/tbkazakova/even_asr/blob/main/voice_activity.ipynb) - to create eaf files with voice activity markup
+- [get_biblical_eaf_annotated.ipynb](https://github.com/tbkazakova/even_asr/blob/main/preproc/biblical/get_biblical_eaf_annotated.ipynb) - to annotate eaf files with empty spans with texts from [biblical_byspans.txt](https://github.com/tbkazakova/even_asr/blob/main/preproc/biblical/biblical_byspans.txt) (manually divided into phrases) 
+- [get_biblical_dataset.ipynb](https://github.com/tbkazakova/even_asr/blob/main/preproc/biblical/get_biblical_dataset.ipynb) - to cut files and prepare metadata table from table of spans
+  
 ## Simple useful functions (dir: simple_func)
 - [audio_length.ipynb](https://github.com/tbkazakova/even_asr/blob/main/audio_length.ipynb) - to count audio length
 - [change_tempo.ipynb](https://github.com/tbkazakova/even_asr/blob/main/change_tempo.ipynb) - to change audio tempo
