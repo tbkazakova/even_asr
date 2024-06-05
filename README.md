@@ -36,6 +36,9 @@ Datasets:
 - [voice_activity.ipynb](https://github.com/tbkazakova/even_asr/blob/main/voice_activity.ipynb) - to create eaf files with voice activity markup
 - [get_biblical_eaf_annotated.ipynb](https://github.com/tbkazakova/even_asr/blob/main/preproc/biblical/get_biblical_eaf_annotated.ipynb) - to annotate eaf files with empty spans with texts from [biblical_byspans.txt](https://github.com/tbkazakova/even_asr/blob/main/preproc/biblical/biblical_byspans.txt) (manually divided into phrases) 
 - [get_biblical_dataset.ipynb](https://github.com/tbkazakova/even_asr/blob/main/preproc/biblical/get_biblical_dataset.ipynb) - to cut files and prepare metadata table from table of spans
+
+**HSE dataset (dir: hse)**
+- [eafs2dataset.ipynb](https://github.com/tbkazakova/even_asr/blob/main/preproc/hse/eafs2dataset.ipynb)
   
 ## Simple useful functions (dir: simple_func)
 - [audio_length.ipynb](https://github.com/tbkazakova/even_asr/blob/main/audio_length.ipynb) - to count audio length
