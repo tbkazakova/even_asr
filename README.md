@@ -10,11 +10,11 @@ Models:
 - https://huggingface.co/tbkazakova/wav2vec-bert-2.0-even-biblical
 
 Datasets:
-| Dataset | Size | Recording quality | Transcription quality | Content |
-|----------|----------|----------|----------|----------|
-| [even_speech_biblical](https://huggingface.co/datasets/tbkazakova/even_speech_biblical) | small | great | good | high-quality studio recordings of readings of religious texts |
-| [even_speech_hse](https://huggingface.co/datasets/tbkazakova/even_speech_hse) | medium | poor | medium | field data collected by HSE University expedition team |
-| [even_speech_pakendorf](https://huggingface.co/datasets/tbkazakova/even_speech_pakendorf) | small | poor |  good | field data collected by project (Aralova et al. 2007-2023)[1] |
+| Dataset | Open | Size | Recording quality | Transcription quality | Content |
+|----------|----------|----------|----------|----------|----------|
+| [even_speech_biblical](https://huggingface.co/datasets/tbkazakova/even_speech_biblical) | + | small | great | good | high-quality studio recordings of readings of religious texts |
+| [even_speech_hse](https://huggingface.co/datasets/tbkazakova/even_speech_hse) | + |  small | poor | medium+ | field data collected by HSE University expedition team |
+| [even_speech_pakendorf](https://huggingface.co/datasets/tbkazakova/even_speech_pakendorf) | - | medium | poor |  medium | field data collected by project (Aralova et al. 2007-2023)[1] |
 
 
 [1]: Natalia Aralova, Brigitte Pakendorf, Alexandra Lavrillier, Dejan Matić, Katharina Gernet, Tat'jana Vasil'evna Zakharova, Raisa Petrovna Kuzmina, and Luise Zippel (2007 - 2023). Collection "Even". The Language Archive. https://hdl.handle.net/1839/07210104-91d6-4133-b067-b21eadc35f9a
