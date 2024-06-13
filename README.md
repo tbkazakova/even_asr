@@ -8,14 +8,14 @@ It is my thesis and project of our expedition team from HSE University.
 
 Models:
 - https://huggingface.co/tbkazakova/wav2vec-bert-2.0-even-pakendorf (Wer: 0.5969, Cer: 0.2128) - Multidialectal
-- https://huggingface.co/tbkazakova/wav2vec-bert-2.0-even-biblical  (Wer: 0.7692, Cer: 0.204) - Lamunkhin dialect
+- https://huggingface.co/tbkazakova/wav2vec2-large-mms-1b-even-biblical  (Wer: 0.677, Cer: 0.15) - Lamunkhin dialect
 
 Datasets:
 | Dataset | Open | Size | Recording quality | Transcription quality | Dialects | Content |
 |----------|----------|----------|----------|----------|----------|----------|
 | [even_speech_biblical](https://huggingface.co/datasets/tbkazakova/even_speech_biblical) | + | small | great | good | Lamunkhin | high-quality studio recordings of readings of religious texts |
 | [even_speech_hse](https://huggingface.co/datasets/tbkazakova/even_speech_hse) | + | very small | poor | medium+ | Bystraja | field data collected by HSE University expedition team |
-| [even_speech_pakendorf](https://huggingface.co/datasets/tbkazakova/even_speech_pakendorf) | - | medium | poor |  medium | Bystraja, Indigirka, Lamunkhin | field data collected by project (Aralova et al. 2007-2023)[1] |
+| [even_speech_pakendorf](https://huggingface.co/datasets/tbkazakova/even_speech_pakendorf) | - | medium | poor |  medium+ | Bystraja, Indigirka, Lamunkhin | field data collected by project (Aralova et al. 2007-2023)[1] |
 
 
 [1]: Natalia Aralova, Brigitte Pakendorf, Alexandra Lavrillier, Dejan Matić, Katharina Gernet, Tat'jana Vasil'evna Zakharova, Raisa Petrovna Kuzmina, and Luise Zippel (2007 - 2023). Collection "Even". The Language Archive. https://hdl.handle.net/1839/07210104-91d6-4133-b067-b21eadc35f9a
