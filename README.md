@@ -20,6 +20,10 @@ Datasets:
 
 [1]: Natalia Aralova, Brigitte Pakendorf, Alexandra Lavrillier, Dejan Matić, Katharina Gernet, Tat'jana Vasil'evna Zakharova, Raisa Petrovna Kuzmina, and Luise Zippel (2007 - 2023). Collection "Even". The Language Archive. https://hdl.handle.net/1839/07210104-91d6-4133-b067-b21eadc35f9a
 
+## Files for model usage (dir: usage):
+- [wav2eaf](https://github.com/tbkazakova/even_asr/blob/main/usage/wav2eaf.ipynb) - to recognize long audio and get eaf file
+- [recognize_eaf](https://github.com/tbkazakova/even_asr/blob/main/usage/recognize_eaf.ipynb) - to annotate eaf file with ready empty spans
+
 ## Training notebooks
 - [W2V2_BERT_Even_pakendorf](https://github.com/tbkazakova/even_asr/blob/main/Fine_Tune_W2V2_BERT_Even_pakendorf.ipynb)
 - [W2V2_BERT_Even_biblical](https://github.com/tbkazakova/even_asr/blob/main/Fine_Tune_W2V2_BERT_Even_biblical.ipynb)
