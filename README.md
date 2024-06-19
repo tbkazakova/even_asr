@@ -15,10 +15,11 @@ Datasets:
 |----------|----------|----------|----------|----------|----------|----------|
 | [even_speech_biblical](https://huggingface.co/datasets/tbkazakova/even_speech_biblical) | + | small | great | good | Lamunkhin | high-quality studio recordings of readings of religious texts |
 | [even_speech_hse](https://huggingface.co/datasets/tbkazakova/even_speech_hse) | + | very small | poor | medium+ | Bystraja | field data collected by HSE University expedition team |
-| [even_speech_pakendorf](https://huggingface.co/datasets/tbkazakova/even_speech_pakendorf) | - | medium | poor |  medium+ | Bystraja, Indigirka, Lamunkhin | field data collected by project (Aralova et al. 2007-2023)[1] |
+| [even_speech_pakendorf](https://huggingface.co/datasets/tbkazakova/even_speech_pakendorf) | - | medium | poor |  medium+ | Bystraja, Indigirka, Lamunkhin | field data collected by project (Pakendorf et al. 2007-2012)[1] |
 
 
-[1]: Natalia Aralova, Brigitte Pakendorf, Alexandra Lavrillier, Dejan Matić, Katharina Gernet, Tat'jana Vasil'evna Zakharova, Raisa Petrovna Kuzmina, and Luise Zippel (2007 - 2023). Collection "Even". The Language Archive. https://hdl.handle.net/1839/07210104-91d6-4133-b067-b21eadc35f9a
+[1]: Brigitte Pakendorf, Dejan Matić, Natalia Aralova & Alexandra Lavrillier. 2007-2012. Documentation of the dialectal and cultural diversity among Evens in Siberia. The Language
+Archive. https://Hdl.Handle.Net/1839/00-0000-0000-000F-2DFE-0. 
 
 ## Files for model usage (dir: usage):
 - [wav2eaf](https://github.com/tbkazakova/even_asr/blob/main/usage/wav2eaf.ipynb) - to recognize long audio and get eaf file
